@@ -11,4 +11,9 @@ config_version=5
 [application]
 
 config/name="TSA:Retro Revival"
+run/main_scene="uid://0106a86caept"
 config/features=PackedStringArray("4.4", "Forward Plus")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
