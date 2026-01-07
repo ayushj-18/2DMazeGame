@@ -1,6 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1767808867
-killzone.gd::GDScript::5472604722122014186::1767808948::0::1::::<>Area2D<><>0<>0<><>::
+::res://::1767809008
 README.md::TextFile/TextFile::-1::1767512370::0::1::::<><><>0<>0<><>::
 ::res://addons/::1767570507
 ::res://addons/godot_super-wakatime/::1767570507
@@ -23,11 +22,13 @@ Run.png::CompressedTexture2D/CompressedTexture2D::565115138235908948::1767512869
 Walk.png::CompressedTexture2D/CompressedTexture2D::344714240828918536::1767571970::1767571970::1::::<><><>0<>0<>b57ed1a1de49f8e2094918859e2b9a6f<>res://.godot/imported/Walk.png-f59ab941b445083dcdeca00117036210.ctex::
 ::res://Assets/Tilemaps/::1767573217
 main_lev_build.png::CompressedTexture2D/CompressedTexture2D::1211600451022026873::1767573216::1767573217::1::::<><><>0<>0<>97fd4b8598d77e4e297e923958a44eed<>res://.godot/imported/main_lev_build.png-0398f658cb9f0f50c0234dd2a1779fad.ctex::
-::res://Scenes/::1767808551
-Cake.tscn::PackedScene/PackedScene::7918654784394551201::1767807955::0::1::::<><><>0<>0<><>::uid://bl1u6udmhg8aq::::res://Assets/Sprites/cake.png<>uid://bwhw37sbq7xh4::::res://Scripts/cake.gd
-Game.tscn::PackedScene/PackedScene::1809968249376298849::1767807955::0::1::::<><><>0<>0<><>::uid://ri55acj8f4qn::::res://Assets/Tilemaps/main_lev_build.png<>uid://jqayrtq03iyi::::res://Scenes/Player.tscn<>uid://dk24c787nfrqf::::res://Scenes/Cake.tscn
-Killzone.tscn::PackedScene::4652710128486455684::1767809008::0::1::::<><><>0<>0<><>::uid://cj78aaiqmwkco::::res://killzone.gd
-Player.tscn::PackedScene/PackedScene::664773418870687496::1767807955::0::1::::<><><>0<>0<><>::uid://bmenv3no7ljn1::::res://Scripts/player.gd<>uid://bsytw21lfaetf::::res://Assets/Sprites/Idle.png<>uid://e58nmrwxtad1::::res://Assets/Sprites/Walk.png
-::res://Scripts/::1767808527
+::res://Scenes/::1767811187
+Cake.tscn::PackedScene::7918654784394551201::1767809282::0::1::::<><><>0<>0<><>::uid://bl1u6udmhg8aq::::res://Assets/Sprites/cake.png<>uid://bwhw37sbq7xh4::::res://Scripts/cake.gd
+Game.tscn::PackedScene::1809968249376298849::1767810854::0::1::::<><><>0<>0<><>::uid://ri55acj8f4qn::::res://Assets/Tilemaps/main_lev_build.png<>uid://jqayrtq03iyi::::res://Scenes/Player.tscn<>uid://dk24c787nfrqf::::res://Scenes/Cake.tscn<>uid://b7j2prgpv38k3::::res://Scenes/Killzone.tscn
+Killzone.tscn::PackedScene::4652710128486455684::1767809283::0::1::::<><><>0<>0<><>::uid://cj78aaiqmwkco::::res://Scripts/killzone.gd
+light.png::CompressedTexture2D::6942940887611079208::1767811187::1767811187::1::::<><><>0<>0<>7656bade69653f7b82c1ee30772a24ee<>res://.godot/imported/light.png-e5ee5baed98d66b385ffec315d5948fc.ctex::
+Player.tscn::PackedScene::664773418870687496::1767811162::0::1::::<><><>0<>0<><>::uid://bmenv3no7ljn1::::res://Scripts/player.gd<>uid://bsytw21lfaetf::::res://Assets/Sprites/Idle.png<>uid://e58nmrwxtad1::::res://Assets/Sprites/Walk.png
+::res://Scripts/::1767809282
 cake.gd::GDScript/GDScript::3946413372700216711::1767807935::0::1::::<>Area2D<><>0<>0<><>::
+killzone.gd::GDScript::5472604722122014186::1767809281::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::3237772632359258960::1767571780::0::1::::<>CharacterBody2D<><>0<>0<><>::
