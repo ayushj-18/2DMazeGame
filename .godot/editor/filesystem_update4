@@ -8,3 +8,5 @@ res://Scripts/cake.gd
 res://Scenes/Killzone.tscn
 res://killzone.gd
 res://Scripts/killzone.gd
+res://Scenes/potion.tscn
+res://Scripts/potion.gd

@@ -1,5 +1,7 @@
 extends Area2D
 
+@export var growth_factor := 1.3
+
 func _on_body_entered(body):
-	print ("+1 Cake")
+	body.grow(growth_factor)
 	queue_free()

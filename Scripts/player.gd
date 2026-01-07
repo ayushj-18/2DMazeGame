@@ -27,3 +27,17 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		animated_sprite.play("idle")
 	move_and_slide()
+
+func grow(factor: float):
+	scale *= factor
+	var tween = create_tween()
+	tween.tween_property(self, "scale", scale * factor, 0.25)\
+		.set_trans(Tween.TRANS_SINE)\
+		.set_ease(Tween.EASE_OUT)
+
+func shrink(factor: float):
+	scale *= factor
+	var tween = create_tween()
+	tween.tween_property(self, "scale", scale * factor, 0.25)\
+		.set_trans(Tween.TRANS_SINE)\
+		.set_ease(Tween.EASE_OUT)

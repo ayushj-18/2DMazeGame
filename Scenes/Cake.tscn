@@ -6,7 +6,8 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_m0iqa"]
 radius = 18.0
 
-[node name="Area2D" type="Area2D"]
+[node name="Cake" type="Area2D"]
+collision_mask = 3
 script = ExtResource("1_qnxgi")
 
 [node name="Cake" type="Sprite2D" parent="."]

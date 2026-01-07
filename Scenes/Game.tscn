@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=4 uid="uid://0106a86caept"]
+[gd_scene load_steps=11 format=4 uid="uid://0106a86caept"]
 
 [ext_resource type="Texture2D" uid="uid://ri55acj8f4qn" path="res://Assets/Tilemaps/main_lev_build.png" id="1_gl6un"]
 [ext_resource type="PackedScene" uid="uid://jqayrtq03iyi" path="res://Scenes/Player.tscn" id="1_iukft"]
 [ext_resource type="PackedScene" uid="uid://dk24c787nfrqf" path="res://Scenes/Cake.tscn" id="3_j5yw3"]
 [ext_resource type="PackedScene" uid="uid://b7j2prgpv38k3" path="res://Scenes/Killzone.tscn" id="4_kldst"]
+[ext_resource type="PackedScene" uid="uid://dhie03srqmgus" path="res://Scenes/potion.tscn" id="5_b2bpf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j5yw3"]
 texture = ExtResource("1_gl6un")
@@ -3690,3 +3691,6 @@ shape = SubResource("WorldBoundaryShape2D_b2bpf")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
 color = Color(0.377919, 0.377919, 0.377919, 1)
+
+[node name="Potion" parent="." instance=ExtResource("5_b2bpf")]
+position = Vector2(-114, -23)
