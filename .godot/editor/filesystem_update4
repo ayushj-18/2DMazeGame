@@ -2,3 +2,9 @@ res://Scenes/Player.tscn
 res://Scenes/Game.tscn
 res://Scripts/player.gd
 res://playerX.tscn
+res://Cake.tscn
+res://Scenes/Cake.tscn
+res://Scripts/cake.gd
+res://Scenes/Killzone.tscn
+res://killzone.gd
+res://Scripts/killzone.gd
