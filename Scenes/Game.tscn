@@ -1,7 +1,8 @@
-[gd_scene load_steps=11 format=4 uid="uid://0106a86caept"]
+[gd_scene load_steps=13 format=4 uid="uid://0106a86caept"]
 
 [ext_resource type="Texture2D" uid="uid://ri55acj8f4qn" path="res://Assets/Tilemaps/main_lev_build.png" id="1_gl6un"]
 [ext_resource type="PackedScene" uid="uid://jqayrtq03iyi" path="res://Scenes/Player.tscn" id="1_iukft"]
+[ext_resource type="Texture2D" uid="uid://j44670b4drrf" path="res://Assets/Tilemaps/dirt_tileset.png" id="2_7lihs"]
 [ext_resource type="PackedScene" uid="uid://dk24c787nfrqf" path="res://Scenes/Cake.tscn" id="3_j5yw3"]
 [ext_resource type="PackedScene" uid="uid://b7j2prgpv38k3" path="res://Scenes/Killzone.tscn" id="4_kldst"]
 [ext_resource type="PackedScene" uid="uid://dhie03srqmgus" path="res://Scenes/potion.tscn" id="5_b2bpf"]
@@ -1721,8 +1722,23 @@ texture = ExtResource("1_gl6un")
 21:63/0 = 0
 22:63/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fgofq"]
+texture = ExtResource("2_7lihs")
+texture_region_size = Vector2i(4, 4)
+0:0/size_in_atlas = Vector2i(3, 4)
+0:0/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+3:3/0 = 0
+3:1/0 = 0
+3:2/0 = 0
+3:0/0 = 0
+0:4/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_iukft"]
 sources/0 = SubResource("TileSetAtlasSource_j5yw3")
+sources/3 = SubResource("TileSetAtlasSource_fgofq")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gl6un"]
 texture = ExtResource("1_gl6un")
@@ -3689,8 +3705,8 @@ position = Vector2(1, 216)
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_b2bpf")
 
+[node name="Potion" parent="." instance=ExtResource("5_b2bpf")]
+position = Vector2(134, -81)
+
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
 color = Color(0.377919, 0.377919, 0.377919, 1)
-
-[node name="Potion" parent="." instance=ExtResource("5_b2bpf")]
-position = Vector2(-114, -23)
