@@ -7,7 +7,6 @@
 radius = 18.0
 
 [node name="Cake" type="Area2D"]
-collision_mask = 3
 script = ExtResource("1_qnxgi")
 
 [node name="Cake" type="Sprite2D" parent="."]
