@@ -131,6 +131,17 @@ position = Vector2(-2, -36)
 shape = SubResource("CapsuleShape2D_kyqiw")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-energy = 0.0
+position = Vector2(-5, -44)
+scale = Vector2(0.824603, 0.700351)
+energy = 0.4
+range_z_min = 0
+range_z_max = 100
+range_layer_max = 100
+shadow_enabled = true
+shadow_color = Color(0.0137406, 0.0304024, 0.0220751, 0)
 texture = ExtResource("4_dewec")
-texture_scale = 8.35
+texture_scale = 1.5
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-3, -36)
+zoom = Vector2(2, 2)

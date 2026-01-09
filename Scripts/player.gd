@@ -6,9 +6,7 @@ const JUMP_VELOCITY = -400.0
 
 @onready var animated_sprite = $AnimatedSprite2D
 @export var grow_speed := 0.25
-@export var shrink_speed := 0.6  
-@export var min_scale := 0.7
-@export var max_scale := 2.0 
+@export var shrink_speed := 0.6   
 
 
 func _physics_process(delta: float) -> void:
@@ -50,11 +48,4 @@ func shrink(factor: float):
 
 func _change_size(multiplier: float, duration: float):
 	var target_scale = scale * multiplier
-	target_scale.x = clamp(target_scale.x, min_scale, max_scale)
-	target_scale.y = clamp(target_scale.y, min_scale, max_scale)
 	
-	var tween = create_tween()
-	
-	tween.tween_property(self, "scale", target_scale, duration)\
-		.set_trans(Tween.TRANS_CUBIC)\
-		.set_ease(Tween.EASE_IN_OUT)
