@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1768025794
+::res://::1768048245
 README.md::TextFile/TextFile::-1::1767512370::0::1::::<><><>0<>0<><>::
 ::res://addons/::1767570507
 ::res://addons/godot_super-wakatime/::1767570507
@@ -28,15 +28,15 @@ dirt work.png::CompressedTexture2D/CompressedTexture2D::4408071000591776420::176
 dirt_tileset.png::CompressedTexture2D/CompressedTexture2D::693384419462946515::1767895471::1767821956::1::::<><><>0<>0<>0f42bc2f137d7dbb0409a4883d83ea5c<>res://.godot/imported/dirt_tileset.png-2536b061dc301eccc91918b1368f89b8.ctex::
 main_lev_build.png::CompressedTexture2D/CompressedTexture2D::1211600451022026873::1767573216::1767573217::1::::<><><>0<>0<>97fd4b8598d77e4e297e923958a44eed<>res://.godot/imported/main_lev_build.png-0398f658cb9f0f50c0234dd2a1779fad.ctex::
 world_tileset.png::CompressedTexture2D/CompressedTexture2D::8391579975741796829::1767936646::1767936646::1::::<><><>0<>0<>1d13d92c853e828bd393e22a3476cff3<>res://.godot/imported/world_tileset.png-78eb360df129f184e1bd5334a79b145a.ctex::
-::res://Scenes/::1768026037
-Cake.tscn::PackedScene::7918654784394551201::1768026037::0::1::::<><><>0<>0<><>::uid://bl1u6udmhg8aq::::res://Assets/Sprites/cake.png<>uid://bwhw37sbq7xh4::::res://Scripts/cake.gd
-Game.tscn::PackedScene::1809968249376298849::1768026036::0::1::::<><><>0<>0<><>::uid://ri55acj8f4qn::::res://Assets/Tilemaps/main_lev_build.png<>uid://jqayrtq03iyi::::res://Scenes/Player.tscn<>uid://b32kjx4q3o1ci::::res://Assets/Tilemaps/dirt work.png<>uid://b7j2prgpv38k3::::res://Scenes/Killzone.tscn
-Killzone.tscn::PackedScene/PackedScene::4652710128486455684::1768002775::0::1::::<><><>0<>0<><>::uid://cj78aaiqmwkco::::res://Scripts/killzone.gd
-Player.tscn::PackedScene::664773418870687496::1768026037::0::1::::<><><>0<>0<><>::uid://bmenv3no7ljn1::::res://Scripts/player.gd<>uid://bsytw21lfaetf::::res://Assets/Sprites/Idle.png<>uid://e58nmrwxtad1::::res://Assets/Sprites/Walk.png<>uid://c56hhsxfrqv0s::::res://Assets/Sprites/light.png
+::res://Scenes/::1768029858
+Cake.tscn::PackedScene::7918654784394551201::1768029521::0::1::::<><><>0<>0<><>::uid://bl1u6udmhg8aq::::res://Assets/Sprites/cake.png<>uid://bwhw37sbq7xh4::::res://Scripts/cake.gd
+Game.tscn::PackedScene::1809968249376298849::1768029521::0::1::::<><><>0<>0<><>::uid://ri55acj8f4qn::::res://Assets/Tilemaps/main_lev_build.png<>uid://jqayrtq03iyi::::res://Scenes/Player.tscn<>uid://b32kjx4q3o1ci::::res://Assets/Tilemaps/dirt work.png<>uid://b7j2prgpv38k3::::res://Scenes/Killzone.tscn<>uid://bk85t0vg4bkre::::res://Scenes/lift.tscn<>uid://dk24c787nfrqf::::res://Scenes/Cake.tscn
+Killzone.tscn::PackedScene::4652710128486455684::1768029522::0::1::::<><><>0<>0<><>::uid://cj78aaiqmwkco::::res://Scripts/killzone.gd
+lift.tscn::PackedScene::3158290371660648518::1768029521::0::1::::<><><>0<>0<><>::uid://c2dfstgn5wpf::::res://Assets/Sprites/lift.png
+Player.tscn::PackedScene::664773418870687496::1768029858::0::1::::<><><>0<>0<><>::uid://bmenv3no7ljn1::::res://Scripts/player.gd<>uid://bsytw21lfaetf::::res://Assets/Sprites/Idle.png<>uid://e58nmrwxtad1::::res://Assets/Sprites/Walk.png<>uid://c56hhsxfrqv0s::::res://Assets/Sprites/light.png
 potion.tscn::PackedScene/PackedScene::7667387990651242706::1768002775::0::1::::<><><>0<>0<><>::uid://cfpcggbrhxll1::::res://Scripts/potion.gd<>uid://cq3a80p8g6oii::::res://Assets/Sprites/potion.png
-::res://Scripts/::1768026166
-cake.gd::GDScript/GDScript::3946413372700216711::1768003301::0::1::::<>Area2D<><>0<>0<><>::
-killzone.gd::GDScript/GDScript::5472604722122014186::1767819306::0::1::::<>Area2D<><>0<>0<><>::
-lift.tscn::PackedScene::3158290371660648518::1768026166::0::1::::<><><>0<>0<><>::uid://c2dfstgn5wpf::::res://Assets/Sprites/lift.png
-player.gd::GDScript/GDScript::3237772632359258960::1767982659::0::1::::<>CharacterBody2D<><>0<>0<><>::
-potion.gd::GDScript/GDScript::5154883718103801924::1767836673::0::1::::<>Area2D<><>0<>0<><>::
+::res://Scripts/::1768029858
+cake.gd::GDScript::3946413372700216711::1768028602::0::1::::<>Area2D<><>0<>0<><>::
+killzone.gd::GDScript::5472604722122014186::1768028676::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::3237772632359258960::1768029858::0::1::::<>CharacterBody2D<><>0<>0<><>::
+potion.gd::GDScript::5154883718103801924::1768028656::0::1::::<>Area2D<><>0<>0<><>::

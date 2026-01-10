@@ -1,9 +1,10 @@
-[gd_scene load_steps=20 format=3 uid="uid://jqayrtq03iyi"]
+[gd_scene load_steps=21 format=3 uid="uid://jqayrtq03iyi"]
 
 [ext_resource type="Script" uid="uid://bmenv3no7ljn1" path="res://Scripts/player.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://bsytw21lfaetf" path="res://Assets/Sprites/Idle.png" id="1_rpqav"]
 [ext_resource type="Texture2D" uid="uid://e58nmrwxtad1" path="res://Assets/Sprites/Walk.png" id="3_gntrk"]
 [ext_resource type="Texture2D" uid="uid://c56hhsxfrqv0s" path="res://Assets/Sprites/light.png" id="4_dewec"]
+[ext_resource type="Script" uid="uid://bdrwhs1hpqut0" path="res://Scenes/camera.gd" id="5_5ixxa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kyqiw"]
 atlas = ExtResource("1_rpqav")
@@ -145,3 +146,4 @@ texture_scale = 1.5
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-3, -36)
 zoom = Vector2(2, 2)
+script = ExtResource("5_5ixxa")

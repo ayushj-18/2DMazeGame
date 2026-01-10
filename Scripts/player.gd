@@ -7,10 +7,9 @@ const JUMP_VELOCITY = -400.0
 @onready var animated_sprite = $AnimatedSprite2D
 @export var grow_speed := 0.25
 @export var shrink_speed := 0.6  
-@export var min_scale := 0.7
-@export var max_scale := 2.0 
-
-@onready var camera := $Camera2D
+@export var base_gravity := 1200.0
+@export var gravity_scale := 1.0
+@export var current_gravity := 1200
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -39,6 +38,9 @@ func grow(factor: float):
 	tween.tween_property(self, "scale", scale, 1)\
 		.set_trans(Tween.TRANS_SINE)\
 		.set_ease(Tween.EASE_OUT)
+	scale = Vector2.ONE * 1.6
+	gravity_scale = 1.4
+	update_gravity()
 
 func shrink(factor: float):
 	scale *= factor 
@@ -46,3 +48,9 @@ func shrink(factor: float):
 	tween.tween_property(self, "scale", scale, 1)\
 		.set_trans(Tween.TRANS_SINE)\
 		.set_ease(Tween.EASE_OUT)
+	scale = Vector2.ONE * 0.6
+	gravity_scale = 0.6
+	update_gravity()
+
+func update_gravity():
+	current_gravity = base_gravity * gravity_scale

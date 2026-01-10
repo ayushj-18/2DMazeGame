@@ -1,11 +1,7 @@
 res://Scenes/Game.tscn
-res://lift.tscn
-res://Scripts/lift.tscn
 res://Scenes/Player.tscn
 res://Scenes/Cake.tscn
 res://Scenes/lift.tscn
-res://Scripts/cake.gd
-res://Scripts/potion.gd
-res://Scripts/killzone.gd
 res://Scenes/Killzone.tscn
+res://Scenes/camera.gd
 res://Scripts/player.gd
