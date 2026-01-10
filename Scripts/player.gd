@@ -6,8 +6,11 @@ const JUMP_VELOCITY = -400.0
 
 @onready var animated_sprite = $AnimatedSprite2D
 @export var grow_speed := 0.25
-@export var shrink_speed := 0.6   
+@export var shrink_speed := 0.6  
+@export var min_scale := 0.7
+@export var max_scale := 2.0 
 
+@onready var camera := $Camera2D
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

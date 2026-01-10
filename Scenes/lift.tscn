@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://bk85t0vg4bkre"]
+
+[ext_resource type="Texture2D" uid="uid://c2dfstgn5wpf" path="res://Assets/Sprites/lift.png" id="1_ltvpc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ktncp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ltvpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_ltvpc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation_1",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ltvpc"]
+size = Vector2(327, 55)
+
+[node name="Lift" type="Area2D"]
+
+[node name="Lift" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_ktncp")
+frame_progress = 0.685554
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.5, -1.5)
+shape = SubResource("RectangleShape2D_ltvpc")
