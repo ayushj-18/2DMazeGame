@@ -14,6 +14,11 @@ config/name="TSA:Retro Revival"
 run/main_scene="uid://0106a86caept"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
+[autoload]
+
+Player="res://Scripts/player.gd"
+CheckpointManager="*res://Scripts/CheckpointManager.gd"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
@@ -21,6 +26,7 @@ enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 [global_group]
 
 player=""
+checkpoint_manager=""
 
 [input]
 

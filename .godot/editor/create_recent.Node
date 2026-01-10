@@ -1,9 +1,10 @@
+Area2D
+Node
+Marker2D
 CollisionShape2D
 Label
-Node
 AnimatedSprite2D
 AnimationPlayer
-Area2D
 CollisionPolygon2D
 Sprite2D
 PointLight2D
@@ -11,4 +12,3 @@ TileMapLayer
 CanvasModulate
 Timer
 TileMap
-Node2D

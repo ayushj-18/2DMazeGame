@@ -5,3 +5,11 @@ res://Scenes/lift.tscn
 res://Scenes/Killzone.tscn
 res://Scenes/camera.gd
 res://Scripts/player.gd
+res://Scripts/checkpoints.gd
+res://Scenes/checkpoints.tscn
+res://Scenes/checkpoint_manager.gd
+res://Scripts/killzone.gd
+res://Scripts/checkpoint_manager.gd
+res://Scripts/CheckpointManager.gd
+res://Scripts/checkpoint.gd
+res://Scenes/potion.tscn
