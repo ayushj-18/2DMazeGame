@@ -32,7 +32,6 @@ func _physics_process(delta: float) -> void:
 
 func grow(factor: float):
 	scale *= factor
-	_change_size(factor, grow_speed)
 	var tween = create_tween()
 	tween.tween_property(self, "scale", scale, 1)\
 		.set_trans(Tween.TRANS_SINE)\
@@ -40,12 +39,7 @@ func grow(factor: float):
 
 func shrink(factor: float):
 	scale *= factor 
-	_change_size(1.0 / factor, shrink_speed)
 	var tween = create_tween()
 	tween.tween_property(self, "scale", scale, 1)\
 		.set_trans(Tween.TRANS_SINE)\
 		.set_ease(Tween.EASE_OUT)
-
-func _change_size(multiplier: float, duration: float):
-	var target_scale = scale * multiplier
-	
